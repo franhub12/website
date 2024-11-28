@@ -1,0 +1,242 @@
+<html>
+ <head>
+  <title>
+   Nike Store
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .header img {
+            height: 40px;
+        }
+        .header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        .header .search {
+            display: flex;
+            align-items: center;
+        }
+        .header .search input {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+        }
+        .header .icons i {
+            margin-left: 15px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+        .container {
+            display: flex;
+            padding: 20px;
+        }
+        .sidebar {
+            width: 200px;
+            padding-right: 20px;
+            border-right: 1px solid #ddd;
+        }
+        .sidebar h3 {
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+        .sidebar label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .sidebar input[type="checkbox"] {
+            margin-right: 5px;
+        }
+        .main-content {
+            flex: 1;
+            padding-left: 20px;
+        }
+        .product {
+            display: inline-block;
+            width: 30%;
+            margin-right: 3.33%;
+            margin-bottom: 20px;
+            vertical-align: top;
+        }
+        .product img {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product h4 {
+            color: #d9534f;
+            font-size: 14px;
+            margin: 10px 0 5px;
+        }
+        .product h5 {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .product p {
+            font-size: 14px;
+            color: #666;
+            margin: 5px 0;
+        }
+        .product .price {
+            font-size: 16px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+        .product .discount {
+            color: #5cb85c;
+            font-size: 14px;
+        }
+  </style>
+ </head>
+ <body>
+  <div class="header">
+   <img alt="Nike Logo" height="40" src="https://storage.googleapis.com/a1aa/image/3Py9Sf8IWernmExu66aqUWNQQUC1ulzGyYSdFQ5ZGY9Bwm1TA.jpg" width="40"/>
+   <nav>
+    <a href="#">
+     Black Friday
+    </a>
+    <a href="#">
+     New
+    </a>
+    <a href="#">
+     Men
+    </a>
+    <a href="#">
+     Women
+    </a>
+    <a href="#">
+     Kids
+    </a>
+    <a href="#">
+     Jordan
+    </a>
+   </nav>
+   <div class="search">
+    <input placeholder="Buscar" type="text"/>
+    <div class="icons">
+     <i class="fas fa-heart">
+     </i>
+     <i class="fas fa-shopping-cart">
+     </i>
+    </div>
+   </div>
+  </div>
+  <div class="container">
+   <div class="sidebar">
+    <h3>
+     Recoger hoy
+    </h3>
+    <label>
+     <input type="checkbox"/>
+     Low
+    </label>
+    <label>
+     <input type="checkbox"/>
+     Mid
+    </label>
+    <label>
+     <input type="checkbox"/>
+     High
+    </label>
+    <h3>
+     En rebaja
+    </h3>
+    <label>
+     <input type="checkbox"/>
+     Black Friday
+    </label>
+    <label>
+     <input type="checkbox"/>
+     Price In Cart
+    </label>
+    <label>
+     <input type="checkbox"/>
+     Rebajas
+    </label>
+    <h3>
+     Comprar por precio
+    </h3>
+    <label>
+     <input type="checkbox"/>
+     Género (1)
+    </label>
+    <h3>
+     Color
+    </h3>
+   </div>
+   <div class="main-content">
+    <div class="product">
+     <img alt="Air Jordan 1 Low" height="300" src="https://storage.googleapis.com/a1aa/image/YwggJIQ65vKoAdqk5StvrcAy25vNTenKNwep0hI6sd7efaWPB.jpg" width="300"/>
+     <h4>
+      Lo más vendido
+     </h4>
+     <h5>
+      Air Jordan 1 Low
+     </h5>
+     <p>
+      Tenis para hombre
+      <br/>
+      9 colores
+     </p>
+     <p class="price">
+      $115
+     </p>
+     <p class="discount">
+      Extra 30% w/ BFRIDAY
+     </p>
+    </div>
+    <div class="product">
+     <img alt="Air Jordan 4 RM" height="300" src="https://storage.googleapis.com/a1aa/image/AOdELa5SxS4fJKuBw3Y6zrb9gY3xzlX3VzMppeVeiFA6faWPB.jpg" width="300"/>
+     <h4>
+      Lo más vendido
+     </h4>
+     <h5>
+      Air Jordan 4 RM
+     </h5>
+     <p>
+      Tenis para hombre
+      <br/>
+      4 colores
+     </p>
+     <p class="price">
+      $150
+     </p>
+     <p class="discount">
+      Extra 30% w/ BFRIDAY
+     </p>
+    </div>
+    <div class="product">
+     <img alt="Luka 3" height="300" src="https://storage.googleapis.com/a1aa/image/ngBQ5RGaBVazIhS6lNkpL4y1ib1yB2pDm0ffmGsY4hKffaWPB.jpg" width="300"/>
+     <h4>
+      Lo último
+     </h4>
+     <h5>
+      Luka 3
+     </h5>
+     <p>
+      Tenis de básquetbol
+      <br/>
+      7 colores
+     </p>
+     <p class="price">
+      $130
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
